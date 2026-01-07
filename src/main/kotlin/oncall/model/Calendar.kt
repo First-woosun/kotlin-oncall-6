@@ -11,10 +11,6 @@ class Calendar {
         return calendar[input]
     }
 
-    fun getSize(): Int {
-        return this.calendar.size
-    }
-
     fun getAll(): MutableList<Day> {
         return this.calendar
     }
