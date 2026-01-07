@@ -1,7 +1,5 @@
 package oncall.model
 
-import oncall.constant.Holiday
-
 class Day(
     private val month: Int,
     private val date: Int,
@@ -10,10 +8,6 @@ class Day(
     private val isWeekend: Boolean
 ) {
     private var nickName: String = ""
-
-    fun printInfo() {
-        println("${month}, ${date}, ${day}, ${isHoliday}, ${isWeekend}")
-    }
 
     fun setNickName(input: String) {
         this.nickName = input
